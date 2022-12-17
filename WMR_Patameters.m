@@ -18,7 +18,7 @@ m = mc + 2*mw;
 I = Ic + mc*d^2 + 2*mw*L^2;
 
 %% Simulation
-Data = sim('WMR', 15);
+Data = sim('WMRCTC', 15);
 
 % Right Wheel
 f = figure('Name','Right Wheel','NumberTitle','off');
