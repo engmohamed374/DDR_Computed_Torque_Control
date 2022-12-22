@@ -9,7 +9,7 @@ As shown in the figure below, it is easy to understand that the control cosists 
 
 ![CTC](https://github.com/engmohamed374/RRR_Computed_Torque_Control-CTC-/blob/main/CTC.png "CTC")
 
-For the system here, the controlled variable is the velocity of the wheels not the angle. Consequently, the scheme above had been modulated to suit this changes as shown in the figure below.
+For the system here, the controlled variables are the velocities of the wheels not the angles. Consequently, the scheme above had been modulated to suit this changes as shown in the figure below.
 
 ![CTC_WMR](https://github.com/engmohamed374/DDR_Computed_Torque_Control/blob/main/CTC_WMR.png "CTC_WMR")
 
