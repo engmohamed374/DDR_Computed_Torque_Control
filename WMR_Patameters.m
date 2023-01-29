@@ -17,7 +17,7 @@ m = mc + 2*mw;
 I = Ic + mc*d^2 + 2*mw*L^2;
 
 %% Simulation
-Data = sim('WMR', 20*pi);
+Data = sim('WMRCTC', 20*pi);
 
 % Right Wheel
 f = figure('Name','Right Wheel','NumberTitle','off');
@@ -101,7 +101,6 @@ dt = Data.Theta.Data(:,1);
 xa = Data.X.Data(:,2);
 ya = Data.Y.Data(:,2);
 ta = Data.Theta.Data(:,2);
-%%
 f = figure('Name','Robot Path','NumberTitle','off');
 f.Position = [220 0 1150 800];
 xlabel('X-Position')
